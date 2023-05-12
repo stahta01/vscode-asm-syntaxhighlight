@@ -6,7 +6,7 @@
     "homepage": "https://github.com/Toeffe3/vscode-asm-syntaxhighlight",
     "repository": { "url": "https://github.com/Toeffe3/vscode-vasm-oldstyle" },
     "displayName": "Assembler code syntax and highlight",
-    "description": "Supports VASM oldstyle, 6502 architecture",
+    "description": "Supports VASM oldstyle, 6809 architecture",
     "engines": {
         "vscode": "^1.60.0"
     },
@@ -18,7 +18,7 @@
     "keywords": [
         "Assembler", 
         "VASM Oldstyle",
-        "6502",
+        "6809",
         ".s",
         ".asm"
     ],
@@ -31,7 +31,7 @@
         "languages": [{
             "id": "asm",
             "aliases": ["Assembler", "assembler", "asm"],
-            "extensions": [".s", ".asm", ".6502"],
+            "extensions": [".s", ".asm", ".defs"],
             "configuration": "./language-configuration.json"
         }],
         "grammars": [{
@@ -46,7 +46,7 @@
         }],
         "snippets": [{
             "language": "asm",
-            "path": "./snippets/6502.json"
+            "path": "./snippets/6809.json"
         }],
         "configuration": [{
             "title": "Assembler syntaxhighlight",

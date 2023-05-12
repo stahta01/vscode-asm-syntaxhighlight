@@ -11,12 +11,12 @@ Adds support for
 * File extensions:
     * .s
     * .asm
-    * .6502
+    * .defs
 * Syntax highlighting:
     * VASM
         * Oldstyle flavor
 * Instruction sets:
-   *  6502
+   *  6809
 
 > This extension does not aim toward supporting your current syntax-highlighing theme. At its current state, sublinetext's standards has been adabted to reasonable match assembly code, but many themes do not support many scopes. Therefor does this extension also ship with a theme that is designed to match the syntax-highlighting scopes to its full feature-set.
 
